@@ -30,12 +30,12 @@ workloadAccounts:
     organizationalUnit: GovCloud
     # enableGovCloud is a one-time non-reversible option
     # which only works with creation of new accounts
-    enableGovCloud: true
+    enableGovCloud: false
   - name: AuditGC # referred to as Audit in the GovCloud account-config.yaml
     description: The security audit account (also referred to as the audit account) for GovCloud.
     email: dearie+lza_audit_gc@fastmail.com
     organizationalUnit: GovCloud
-    enableGovCloud: true
+    enableGovCloud: false
   # - name: SharedServicesGC # referred to as SharedServices in the GovCloud account-config.yaml
   #   description: Shared services account for GovCloud.
   #   email: dearie+lza_services_gc
